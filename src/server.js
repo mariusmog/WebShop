@@ -18,7 +18,7 @@ app.use(cors());
 
 app.get('/products', async (req, res) => {
   try {
-    const [rows] = await pool.query('SELECT * FROM products');
+    const [rows] = await pool.query('SELECT * FROM product');
     res.json(rows);
   } catch (err) {
     console.error(err);
