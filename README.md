@@ -1,29 +1,31 @@
 # webshop
 
-This template should help get you started developing with Vue 3 in Vite.
+WebShop est un site web permettant d'ajouter et de retirer une selection de produits dans un panier, dans le cadre d'un TP noté en développement Web.
 
-## Recommended IDE Setup
+## Setup la base de données
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+La base de données que j'ai utilisée est MySQL.
 
-## Customize configuration
+- Installer MySQL.
+- Créer une base vueshop dans MySQL et lancer le script init.SQL présent dans le dossier sql.
+- Configurer le fichier src/server.js avec vos paramètres de base de données.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# Lancer le serveur
 
-## Project Setup
-
-```sh
-npm install
+Se rendre dans le répertoire racine du projet et lancer la commande :
 ```
+node src/server.js
+```
+# Démarrer le site 
 
-### Compile and Hot-Reload for Development
-
-```sh
+Se rendre dans le répertoire racine et lancer la commande : 
+```
 npm run dev
 ```
 
-### Compile and Minify for Production
+# Démonstration 
 
-```sh
-npm run build
-```
+https://github.com/mariusmog/WebShop/assets/110689175/56858d17-7add-4890-9a74-28b7264fc265
+
+
+
